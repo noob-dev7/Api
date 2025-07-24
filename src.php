@@ -1,7 +1,7 @@
 <?php
 $id = $_GET['id'] ?? '';
 $apiKey = "iloveyou";
-$apiUrl = "https://yourdomain.onrender.com/api.php?id=$id&api_key=$apiKey";
+$apiUrl = "https://api-ccc0.onrender.com/api.php?id=$id&api_key=$apiKey";
 $response = file_get_contents($apiUrl);
 $data = json_decode($response, true);
 ?>
